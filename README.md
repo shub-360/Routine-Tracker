@@ -6,9 +6,9 @@ Welcome to **MyRoutine**, a clean, category-based task management app built usin
 
 👉 [Click here to try MyRoutine](https://shub-360.github.io/UserData-cards/)
 
+![image](https://github.com/user-attachments/assets/82521cd1-3f83-41a9-9480-68ac311df36e)
 
-![MyRoutine Screenshot](![image](https://github.com/user-attachments/assets/99ccc9f4-4fbc-422a-b0f3-5724a1df00c9)
-)
+
 
 ---
 
