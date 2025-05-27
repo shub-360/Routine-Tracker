@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="rgb(68, 23, 82)" id="theme-color">
+  <title>MyRoutine - Categorized ToDo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>MyRoutine Tracker</h1>
+
+      <p>Add tasks based on their category</p>
+    </header>
+
+    <!-- Task Input Section -->
+    <section class="task-input">
+      <form id="taskForm">
+
+        <input type="text" id="taskName" placeholder="Task Name (eg. Drawing,Javascript)" required />
+
+        <input type="number" id="taskDuration" placeholder="Duration (hrs)" min="0.1" step="0.1" required />
+
+        <select id="taskCategory" required>
+          <option value="" disabled selected>Select Category</option>
+          <option value="Deep Work">Deep Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Learning">Learning</option>
+        </select>
+
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <!-- Task Lists by Category -->
+    <section class="task-grid">
+      <div class="deep-work-card task-card">
+        <h2>Deep Work</h2>
+        <!-- Here list will be inject by Javascript -->
+        <ul id="deepWork-list" class="task-list">
+          
+        </ul>
+
+      </div>
+      <div class="personal-work-card task-card">
+        <h2>Personal</h2>
+        <ul id="personal-list" class="task-list"></ul>
+
+      </div>
+      <div class="learning-work-card task-card">
+        <h2>Learning</h2>
+        <ul id="learning-list" class="task-list"></ul>
+
+      </div>
+
+
+    </section>
+
+    <footer>
+      <button id="clearAllTasks">Reset All</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

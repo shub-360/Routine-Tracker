@@ -1,0 +1,16 @@
+🔵 Base Theme – “Modern Productivity”
+Element	Color	Hex Code
+Background	Soft Off-White  rgb(245, 245, 245)
+Primary Accent rgb(129, 116, 160)
+Text Color	rgb(68, 23, 82)
+Card/Box Background	White rgb(239, 182, 200)  , rgb(248, 231, 246)
+Border/Shadow Gray	Light Gray	#E5E7EB
+
+🟣 Category Colors:
+Category	Color Name	Hex
+Deep Work	Purple	rgb(129, 116, 160)
+Personal	Emerald Green	#10B981
+Learning	Amber/Yellow	#F59E0B
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
