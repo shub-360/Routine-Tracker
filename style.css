@@ -21,9 +21,7 @@ body {
 header {
   padding: 1.5rem;
   text-align: center;
-  border-bottom: 2px solid #c5c9d1;
   margin-bottom: 1.5rem;
-  ;
 }
 
 header h1 {
@@ -37,8 +35,6 @@ header p {
   font-size: 1.1rem;
   color: rgb(129, 116, 160);
 }
-
-
 
 /* --------- Form Section --------- */
 #taskForm {
@@ -127,22 +123,15 @@ form select:focus {
   border-bottom: 1px solid rgb(68, 23, 82);
 }
 
-.task-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0;
-
-}
 
 /* Task list styles  */
 .task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  /* Adjust the gap as needed */
-
-
-
 }
 
 .task-list li {
@@ -155,36 +144,21 @@ form select:focus {
   gap: 0.5rem;
 }
 
-/* --------- Category Colors --------- */
-.deep-work-card {
+/* --------- Category Colors & List name colors--------- */
+
+.deep-work-card  , .deep-work-card li{
   border-color: #FDB7EA;
 }
 
-.personal-work-card {
+.personal-work-card , .personal-work-card li  {
   border-color: #FFDCCC;
 }
 
-.learning-work-card {
+.learning-work-card , .learning-work-card li {
   border-color: #FBF3B9;
 }
 
-/* List name colors */
-
-.deep-work-card li {
-  background-color: #FDB7EA;
-}
-
-.personal-work-card li {
-  background-color: #FFDCCC;
-}
-
-.learning-work-card li {
-  background-color: #FBF3B9;
-}
-
-
-
-/* --------- Buttons --------- */
+/* --------- Buttons with check  --------- */
 .task-card button {
 
   background-color: #44ef58;
@@ -201,8 +175,6 @@ form select:focus {
   opacity: 0.6;
   transition: all 0.2s ease;
 }
-
-
 
 #clearAllTasks {
   background-color: #ed6161;
